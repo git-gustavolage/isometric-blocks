@@ -18,6 +18,7 @@ export class GameOverSystem {
 
             ui.get("pontuacao").text = "Sua pontuação mais alta: " + this.max + " pontos";
 
+            input.keyboard.clear();
         }
     }
 }
