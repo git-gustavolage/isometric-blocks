@@ -28,9 +28,9 @@ export class BlockPatternSystem {
                 console.log(this.current.name);
             }
 
-            pattern.duration -= dt * config.game_pattern_base_speed;
+            pattern.duration -= (dt * config.game_pattern_base_speed);
 
-            if (pattern.duration <= 0) {
+            if (pattern.duration + config.pattern_timer_buffer <= 0) {
                 this.em.getComponent(eid, StateTransitionComp).ready = true;
                 this.toRevel = this.current;
                 this.current = null;
