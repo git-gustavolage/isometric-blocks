@@ -1,0 +1,24 @@
+{
+  "name": "padaria-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/git-gustavolage/isometric-blocks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/git-gustavolage/isometric-blocks/issues"
+  },
+  "homepage": "https://github.com/git-gustavolage/isometric-blocks#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
